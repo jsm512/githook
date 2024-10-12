@@ -132,14 +132,14 @@ export default {
                 description: 'Describe the breaking changes',
             },
             isIssueAffected: {
-                description: 'Does this change affect any open issues?',
+                description: '이번 변경사항으로 영향 받은 #issue가 있나요?',
             },
             issuesBody: {
                 description:
-                    'If issues are closed, the commit requires a body. Please enter a longer description of the commit itself',
+                    '영향 받은 #issue에 대한 설명',
             },
             issues: {
-                description: 'Add issue references (e.g. "fix #123", "re #123".)',
+                description: '영향 받은 #issue 번호 (ex. fix: #1)',
             },
         },
     },
