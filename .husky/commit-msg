@@ -36,4 +36,4 @@ if ! [[ "$MESSAGE" =~ $COMMITFORMAT ]]; then
   echo "=================================================================================="
   echo ""
   exit 1
-fiyour-commit-check-script.sh
+fi
