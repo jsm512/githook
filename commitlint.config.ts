@@ -47,7 +47,7 @@ export default {
     prompt: {
         questions: {
             type: {
-                description: "Select the type of change that you're committing",
+                description: "변경사항 선택",
                 enum: {
                     feat: {
                         description: 'A new feature',
@@ -112,14 +112,14 @@ export default {
             },
             scope: {
                 description:
-                    'What is the scope of this change (e.g. component or file name)',
+                    '변경된 파일 or 폴더',
             },
             subject: {
                 description:
-                    'Write a short, imperative tense description of the change',
+                    '짧은 설명 ex. 로그인 기능 추가',
             },
             body: {
-                description: 'Provide a longer description of the change',
+                description: '추가 설명',
             },
             isBreaking: {
                 description: 'Are there any breaking changes?',
