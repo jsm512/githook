@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
+
 echo "🔆 Thanks for keeping the convention 🔆"
