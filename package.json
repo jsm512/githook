@@ -13,7 +13,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "@commitlint/cz-commitlint"
+      "path": "cz-customizable"
     }
   }
 }
