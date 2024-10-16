@@ -2,7 +2,7 @@
 
 MESSAGE=$(cat $1)
 
-COMMITFORMAT="(Feat|Fix|Docs|Style|Refactor|Design|Comment|Rename|Remove|Teest|!HOTFIX|!BREAKING CHANGE): (.*)"
+COMMITFORMAT="(Feat|Fix|Docs|Style|Refactor|Design|Comment|Rename|Remove|Test|!HOTFIX|!BREAKING CHANGE): (.*)"
 
 
 if ! [[ "$MESSAGE" =~ $COMMITFORMAT ]]; then
