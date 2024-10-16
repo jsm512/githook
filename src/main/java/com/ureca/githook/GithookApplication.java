@@ -8,5 +8,6 @@ public class GithookApplication {
 
   public static void main(String[] args) {
     SpringApplication.run(GithookApplication.class, args);
+    System.out.println("Test입니다.");
   }
 }
